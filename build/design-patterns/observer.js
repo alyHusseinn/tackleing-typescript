@@ -10,7 +10,11 @@ class Subject {
         this.observers.push(observer);
     }
     removeObserver(observer) {
-        //..
+        const observerIdx = this.observers.indexOf(observer);
+        if (observerIdx == -1) {
+            return console.log("Not observer");
+        }
+        this.observers.splice(observerIdx, 1);
     }
     updateMessage(message) {
         this.message = message;

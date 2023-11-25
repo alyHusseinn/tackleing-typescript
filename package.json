@@ -1,0 +1,15 @@
+{
+  "name": "typescript-palyground",
+  "version": "1.0.0",
+  "description": "typescript learning",
+  "main": "hellots.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tslint": "^5.20.1",
+    "tslint-config-airbnb": "^5.11.2"
+  }
+}
